@@ -1,0 +1,1 @@
+Swift package of https://github.com/msintuneappsdk/ms-intune-app-sdk-ios

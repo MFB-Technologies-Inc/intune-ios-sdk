@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-name: "intune-ios-sdk",
+    name: "intune-ios-sdk",
     platforms: [
         .iOS(.v15),
     ],

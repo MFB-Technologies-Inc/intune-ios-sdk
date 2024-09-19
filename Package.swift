@@ -1,11 +1,11 @@
-// swift-tools-version:5.5
+// swift-tools-version:6.0
 
 import PackageDescription
 
 let package = Package(
     name: "intune-ios-sdk",
     platforms: [
-        .iOS(.v15),
+        .iOS(.v16),
     ],
     products: [
         .library(name: "IntuneMAMSwift", targets: ["IntuneMAMSwift"]),

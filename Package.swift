@@ -25,7 +25,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "IntuneMAMTelemetry",
-            url: "https://github.com/MFB-Technologies-Inc/intune-ios-sdk/releases/pre-20.4.1/IntuneMAMTelemetry.xcframework",
+            url: "https://github.com/MFB-Technologies-Inc/intune-ios-sdk/releases/pre-20.4.1/IntuneMAMTelemetry.xcframework.zip",
             checksum: "d28f2dd35b8fa716f05f8ffa248a03aa39df115037a1e3da263f516c2ee970e0"
         ),
     ]

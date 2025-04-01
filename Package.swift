@@ -13,8 +13,20 @@ let package = Package(
         .library(name: "IntuneMAMTelemetry", targets: ["IntuneMAMTelemetry"]),
     ],
     targets: [
-        .binaryTarget(name: "IntuneMAMSwift", path: "./Sources/IntuneMAMSwift.xcframework"),
-        .binaryTarget(name: "IntuneMAMSwiftStub", path: "./Sources/IntuneMAMSwiftStub.xcframework"),
-        .binaryTarget(name: "IntuneMAMTelemetry", path: "./Sources/IntuneMAMTelemetry.xcframework"),
+        .binaryTarget(
+            name: "IntuneMAMSwift",
+            url: "https://github.com/MFB-Technologies-Inc/intune-ios-sdk/releases/download/pre-20.4.1/IntuneMAMSwift.xcframework.zip",
+            checksum: "f18c19276bed7aa1a1d2c312446f8352e8cae2c718c6864d2a9756bd1275fb69"
+        ),
+        .binaryTarget(
+            name: "IntuneMAMSwiftStub",
+            url: "https://github.com/MFB-Technologies-Inc/intune-ios-sdk/releases/download/pre-20.4.1/IntuneMAMSwiftStub.xcframework.zip",
+            checksum: "10b9ae31d127d22c48ea8355dba7bc726e8c3da155e94f4d99c403576826980e"
+        ),
+        .binaryTarget(
+            name: "IntuneMAMTelemetry",
+            url: "https://github.com/MFB-Technologies-Inc/intune-ios-sdk/releases/download/pre-20.4.1/IntuneMAMTelemetry.xcframework.zip",
+            checksum: "d28f2dd35b8fa716f05f8ffa248a03aa39df115037a1e3da263f516c2ee970e0"
+        ),
     ]
 )

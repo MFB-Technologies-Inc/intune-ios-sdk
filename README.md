@@ -1,3 +1,5 @@
+❗️ **Archived now that the official repository supports swift package manager** ❗️
+
 Swift package of https://github.com/msintuneappsdk/ms-intune-app-sdk-ios
 
 ## Updating for new releases
